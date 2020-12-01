@@ -237,7 +237,7 @@ void problem() {
 			ll h, d, k, p, a, b;
 			pii G;
 			ll q;
-			cout << "Enter parameters h, d, k, p, a, b, G.x, G.y, ll q\nwhere:\n";
+			cout << "Enter parameters h, d, k, p, a, b, G.x, G.y, q\nwhere:\n";
 			cout << "h - message digest\n" <<
 				"d - secret key\n" <<
 				"k - \"fixed\" random number\n" <<
@@ -259,7 +259,7 @@ void problem() {
 			pii G;
 			ll q;
 			pii Q;
-			cout << "Enter parameters r, s, h, p, a, b, G.x, G.y, ll q, pii Q.x, Q.y\nwhere:\n";
+			cout << "Enter parameters r, s, h, p, a, b, G.x, G.y, q, Q.x, Q.y\nwhere:\n";
 			cout << "(r, s) - digital signature\n" <<
 				"h - message digest\n" <<
 				"p, a, b - parameters of elliptic curve E_p(a, b)" <<

@@ -1,0 +1,7 @@
+*.sln
+/.vs
+/Debug
+*.vcxproj
+*.filters
+*.user
+/DigitalSign/Debug
